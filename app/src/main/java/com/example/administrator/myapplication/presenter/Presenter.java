@@ -17,7 +17,7 @@ public class Presenter {
     }
 
     public void loadData() {
-        //生成一个student的请求逻辑
+        //生成一个student的请求逻辑  天气不错哦
         student.setName("这是的数据");
         //之后  主持人把数据交给View
         onDataResult(student.getName());
